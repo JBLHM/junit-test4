@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+    <servlet>
+        <servlet-name>Loginservlet</servlet-name>
+        <servlet-class>oa.servlet.Loginservlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+         <servlet-name>Loginservlet</servlet-name>
+         <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+    
+  <servlet>
+        <servlet-name>userSaveservlet</servlet-name>
+        <servlet-class>oa.servlet.UserSaveServlet</servlet-class>
+  </servlet>
+    <servlet-mapping>
+         <servlet-name>userSaveservlet</servlet-name>
+         <url-pattern>/user/save</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ActTransferServlet</servlet-name>
+        <servlet-class>oa.servlet.ActTransferServlet</servlet-class>
+  </servlet>
+    <servlet-mapping>
+         <servlet-name>ActTransferServlet</servlet-name>
+         <url-pattern>/act/transfer</url-pattern>
+    </servlet-mapping>
+</web-app>
